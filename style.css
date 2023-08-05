@@ -12,7 +12,7 @@
 .nav{
     display: flex;
     justify-content: center;
-    flex-shrink:inherit;
+    flex-wrap: wrap;
     padding-bottom: 20px;
     padding-top: 15px;
     display: inline-flexbox;
@@ -27,11 +27,13 @@
 .secondnav{
     background-color: #0dade2;
     height: 150px;
+    flex-wrap: wrap;
 }
 .first{
     display: flex;
     list-style: none;
     justify-content: space-between;
+    flex-wrap: wrap;
     color: aliceblue;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
@@ -43,6 +45,7 @@
 .second{
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
     justify-content:center;
     color: aliceblue;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
